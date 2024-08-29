@@ -1,0 +1,78 @@
+.btn {
+    background-color: #9db7ec;
+    padding: 8%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #7b04aa;
+    color: #e6ebf5;
+}
+
+.btnn {
+    background-color: #57585c;
+    padding: 7%;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnn:hover {
+    background-color: #8d96a0;
+    color: #e6ebf5;
+}
+
+
+
+@media (max-width: 768px) {
+    .btn {
+        background-color: #9db7ec;
+        padding: 4%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.4s ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 150%;
+    }
+    
+    .btn:hover {
+        background-color: #7b04aa;
+        color: #e6ebf5;
+    }
+    
+    .btnn {
+        background-color: #57585c;
+        padding: 5%;
+        width: 110%;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.4s ;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .btnn:hover {
+        background-color: #8d96a0;
+        color: #e6ebf5;
+    }
+
+    .lagu{
+        height: 50%;
+    }
+
+    .web {
+        font-size: 120%;
+    }
+
+    .tgs {
+        font-size: 120%;
+    }
+}
